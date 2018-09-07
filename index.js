@@ -31,6 +31,7 @@ export class {libName} { }
 function init(){
     if(cmdUtilities.isAngularRootDir()){
 
+        //parse cli arguments to identify if it needs to be published to npm or local
 
         
         exportApp();
