@@ -1,0 +1,24 @@
+{
+  "name": "ng-g-lib",
+  "version": "0.0.1",
+  "description": "Export angular app as angular library npm package",
+  "main": "index.js",
+  "bin": {
+    "ng-g-lib": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "getrohith.sathya@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@angular/cli": "*"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "lodash": "^4.17.10",
+    "shelljs": "^0.8.2",
+    "string-template": "^1.0.0",
+    "upath": "^1.1.0"
+  }
+}
